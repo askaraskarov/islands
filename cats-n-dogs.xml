@@ -3,27 +3,27 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://interactive-answers.webmaster.yandex.ru/schemas/site/0.0.1  http://interactive-answers.webmaster.yandex.ru/schemas/site-0.0.1.xsd">
 
-    <rootUrl>http://example.com</rootUrl>
-    <title>Пример доски объявлений</title>
-    <description>Доска объявлений о продаже собак и кошек, щенков и котят</description>
+    <rootUrl>http://reddoor74.ru</rootUrl>
+    <title>Входные двери в Челябинске</title>
+    <description>Интернет магазин RedDoor74.ru  предлагает: Входные двери, стальные двери, бесплатный монтаж дверей и доставка в Челябинск и области</description>
 
     <resource>
-        <fixed name="example.com" terminal="false">
+        <fixed name="reddoor74.ru" terminal="false">
             <placeholder name="species"/>
         </fixed>
     </resource>
     <filters>
         <dropDown>
-            <description caption="животное">
+            <description caption="Фирма производитель">
                 <modifyResource placeholder="species"/>
             </description>
-            <dropDownValue key="cats" caption="кошки">
+            <dropDownValue key="argus" caption="Аргус">
                 <dropDown>
-                    <description caption="порода">
+                    <description caption="Модель">
                         <setParameter name="breed"/>
                     </description>
-                    <dropDownValue key="british" caption="британская"/>
-                    <dropDownValue key="scottish" caption="шотландская"/>
+                    <dropDownValue key="DA1" caption="ДА1"/>
+                    <dropDownValue key="DA2" caption="ДА2/>
                     <!--...-->
                     <dropDownValue key="maine_coon" caption="мейн-кун"/>
                     <dropDownValue key="other" caption="другие"/>
